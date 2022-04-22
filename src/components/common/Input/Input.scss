@@ -1,0 +1,16 @@
+@import '../../../static/variable.scss';
+
+.input {
+    border: none;
+    background-color: $secondary-color;
+    width: 30px;
+    border-radius: 4px;
+    position: absolute;
+    top: -7px;
+    color: $light-gray;
+    padding: 2px 4px;
+    text-align: center;
+    &:focus-visible {
+        outline: none;
+    }
+}

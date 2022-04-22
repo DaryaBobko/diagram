@@ -1,0 +1,77 @@
+@import '../../../static/variable.scss';
+
+.app {
+  height: 100vh;
+  min-width: 360px;
+  overflow-x: auto;
+  text-align: center;
+  background-color: $main-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  max-height: 740px;
+  min-height: 740px;
+  width: 360px;
+  @media screen and (min-width: $md) {
+    width: 750px;
+  }
+  @media (min-width: $sm) and (max-width: $md) {
+    width: 550px;
+  }
+}
+
+.interface {
+  top: 20%;
+  left: calc(50% - 40px);
+  @media screen and (min-width: $sm) {
+      top: 5%;
+      left: calc(50% - 60px);
+  }
+}
+
+.app-group {
+  top: 60%;
+  left: 5%;
+}
+
+.function {
+  top: 70%;
+  left: calc(50% - 40px);
+  @media screen and (min-width: $sm) {
+    top: 80%;
+    left: calc(50% - 60px);
+  }
+}
+
+.mtv {
+  top: 60%;
+  right: 5%;
+}
+
+.server {
+  top: 30%;
+  left: 5%;
+  @media screen and (min-width: $sm) {
+    top: 25%;
+  }
+}
+
+.mb-hide {
+  display: block;
+  @media screen and (min-width: $md) {
+    display: none;
+  }
+}
+
+.lg-hide {
+  display: none;
+  @media screen and (min-width: $md) {
+    display: block;
+  }
+}

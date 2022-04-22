@@ -1,0 +1,122 @@
+@import '../../../static/variable.scss';
+
+.application-wrap {
+  position: absolute;
+  width: 200px;
+  height: 200px; 
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+
+.application {
+  width: 120px;
+  height: 120px;
+  background-color: $white;
+  border: 1px solid $white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 60px);
+  padding: 30px;
+  @media screen and (min-width: $sm) {
+    width: 200px;
+    height: 200px; 
+    padding: 43px;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+  }
+
+  &:hover {
+    border: 1px solid #E6EAF2;
+    box-shadow: 0px 4px 4px rgba(46, 56, 77, 0.02);
+  }
+
+  .title {
+    font-size: 0.875rem;
+    line-height: 16.41px;
+    overflow: hidden;
+    max-width: 120px;
+  }
+
+  .application-img {
+    flex-basis: 25px;
+    @media screen and (min-width: $sm) {
+      flex-basis: auto;
+    }
+  }
+}
+
+.interfase-line {
+  position: absolute;
+  right: 68px;
+  top: -46px;
+  @media screen and (min-width: $sm) {
+    top: -116px;
+  }
+}
+
+.fanctions-line {
+  position: absolute;
+  right: 90px;
+  bottom: -46px;
+  transform: rotate(180deg);
+  @media screen and (min-width: $sm) {
+    bottom: -119px;
+  }
+}
+
+.server-line {
+  position: absolute;
+  top: -15px;
+  left: -120px;
+}
+
+.server-line-mb {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  @media screen and (min-width: $sm) {
+    top: 20px;
+    left: -45px;
+  }
+}
+
+.app-group-line {
+  position: absolute;
+  top: 130px;
+  left: -120px;
+  transform: scale(1, -1);
+}
+
+.app-group-line-mb {
+  transform: rotate(45deg);
+  position: absolute;
+  top: 115px;
+  left: -5px;
+  @media screen and (min-width: $sm) {
+    top: 105;
+    left: -45px;
+  }
+}
+
+.mtv-line {
+  position: absolute;
+  top: 130px;
+  right: -120px;
+}
+
+.mtv-line-mb {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  @media screen and (min-width: $sm) {
+    top: 103px;
+    right: -42px;
+  }
+}

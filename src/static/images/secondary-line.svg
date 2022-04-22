@@ -1,0 +1,9 @@
+<svg width="120" height="107" viewBox="0 -7 62 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-29 -7)"><line y1="-0.5" x2="14.4222" y2="-0.5" transform="matrix(-0.83205 -0.5547 -0.5547 0.83205 12 9)" stroke="#8A8E99"/></g>
+    <g transform="translate(-29 1)"><line x1="12.2774" y1="0.416025" x2="0.277351" y2="8.41602" stroke="#8A8E99"/></g>
+    <g transform="translate(-29 1)"><line y1="-0.5" x2="30" y2="-0.5" transform="matrix(-1 -8.74227e-08 -8.74227e-08 1 30 1)" stroke="#8A8E99"/></g>
+    <line y1="-0.5" x2="107.121" y2="-0.5" transform="matrix(0.578088 0.815974 0.815974 -0.578088 1.50693 0.906967)" stroke="#8A8E99"/>
+    <g transform="translate(63 88)"><line y1="-0.5" x2="30" y2="-0.5" transform="matrix(1 0 0 -1 0 0)" stroke="#8A8E99"/></g>
+    <g transform="translate(80 88)"><line y1="-0.5" x2="14.4222" y2="-0.5" transform="matrix(-0.83205 -0.5547 -0.5547 0.83205 12 9)" stroke="#8A8E99"/></g>
+    <g transform="translate(80 80)"><line x1="12.2774" y1="0.416025" x2="0.277351" y2="8.41602" stroke="#8A8E99"/></g>
+</svg>
